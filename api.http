@@ -1,0 +1,11 @@
+POST http://localhost:3333/subscriptions
+Content-Type: application/json
+
+{
+  "name": "Evandro",
+  "email": "drftgy@hotmail.com"
+}
+
+####
+
+GET http://localhost:3333/invites/4e707046-edd3-4ddc-be13-2062ec07da06
