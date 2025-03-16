@@ -2,15 +2,16 @@ POST http://localhost:3333/subscriptions
 Content-Type: application/json
 
 {
-  "name": "Evandro",
-  "email": "drftgy@hotmail.com"
+  "name": "Israel",
+  "email": "israel@hotmail.com",
+  "referrer": "068256dc-2026-499f-b0c4-60a7463ba616"
 }
 
 ####
 
-GET http://localhost:3333/invites/4e707046-edd3-4ddc-be13-2062ec07da06
+GET http://localhost:3333/invites/068256dc-2026-499f-b0c4-60a7463ba616
 
 ####
  
- GET http://localhost:3333/subscribers/4e707046-edd3-4ddc-be13-2062ec07da06/ranking/clicks
+ GET http://localhost:3333/subscribers/068256dc-2026-499f-b0c4-60a7463ba616/ranking/clicks
  
